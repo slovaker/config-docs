@@ -1,0 +1,133 @@
+/* === Global typography === */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #2d2d2d;
+    background: #f9f9fb;
+    padding-bottom: 4rem;
+  }
+  
+  /* === Headings === */
+  h1, h2, h3, h4 {
+    font-weight: 600;
+    color: #222;
+    margin-top: 2rem;
+  }
+  
+  /* === Sidebar styling === */
+  .sidebar {
+    background: #f3f4f6;
+    border-right: 1px solid #ddd;
+    padding-top: 2rem;
+  }
+  
+  .sidebar ul li a {
+    color: #1a202c;
+    font-weight: 500;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #3182ce;
+  }
+  
+  /* === Code blocks === */
+  pre {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #444;
+    font-family: 'Fira Code', Menlo, Consolas, monospace;
+    font-size: 14px;
+    overflow-x: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem 0;
+  }
+  
+  /* Block-style <code> inside <pre> */
+  pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+  
+  /* Inline code */
+  code {
+    background: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Inline code in paragraphs */
+  p code {
+    background: #e2e8f0;
+    color: #2d3748;
+  }
+  
+  /* === Blockquotes === */
+  blockquote {
+    border-left: 4px solid #3182ce;
+    padding-left: 1rem;
+    color: #4a5568;
+    background: #f0f4f8;
+    margin: 1.5rem 0;
+  }
+  
+  /* === Tables === */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+  }
+  
+  th {
+    background: #f0f0f0;
+    font-weight: 600;
+  }
+  
+  /* === Emoji fix === */
+  .emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 0.1em;
+    vertical-align: -0.1em;
+  }
+
+/* === Code Box === */
+.code-box {
+    background: #1e1e1e;
+    color: #e5e5e5;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 1rem;
+    font-family: 'Fira Code', Menlo, Consolas, monospace;
+    font-size: 13.5px;
+    line-height: 1.5;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    white-space: pre;
+  }
+  
+  /* Code inside code box */
+  .code-box {
+      background: #282c34; /* Darker background for better contrast */
+      color: #abb2bf; /* Softer text color */
+      border: 1px solid #444c56;
+      border-radius: 8px;
+      padding: 1.2rem;
+      font-family: 'Fira Code', Menlo, Consolas, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+      overflow-x: auto;
+      margin: 1.5rem 0;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+      white-space: pre-wrap; /* Wrap long lines */
+      word-wrap: break-word; /* Break long words */
+  }
